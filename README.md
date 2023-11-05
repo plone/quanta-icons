@@ -4,7 +4,7 @@
 
 # Quanta icons
 
-There is an initial release of the Quanta Icons. These icons are intended to be used only in the official Quanta Design System, so please refrain to use them on personal projects unless they are based on Quanta for Plone 6 or above.
+These is an initial release of the Quanta Icons. These icons are intended to be used only in the official Quanta Design System, so please refrain to use them on personal projects unless they are based on Quanta for Plone 6 or above.
 
 ![Quanta](https://github.com/plone/quanta-icons/raw/main/icons-sheet.png)
 
