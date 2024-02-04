@@ -13,6 +13,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "generate-icons": "node scripts/generator.js"
+  },
   "devDependencies": {
     "fs-extra": "^8.0.1",
     "prettier": "^3.0.3",

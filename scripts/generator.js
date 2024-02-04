@@ -40,18 +40,18 @@ function template(iconName, iconContent) {
   if (/^[0-9]/.test(importName)) {
     iconRename = "_" + importName;
   }
-  return `import Icon from '../Icon/Icon';
+
+  return `import React from 'react';
+  import { Icon } from '../Icon/Icon';
   import type { IconPropsWithoutChildren } from '../Icon/Icon';
 
-  const ${iconName} = (props: IconPropsWithoutChildren) => {
+  export const ${iconName}Icon = (props: IconPropsWithoutChildren) => {
     return (
       <Icon {...props}>
         ${iconContent}
       </Icon>
     );
   };
-
-  export default ${iconName};
 `;
 }
 
